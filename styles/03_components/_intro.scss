@@ -1,0 +1,16 @@
+.intro {
+	width: 100%;
+	margin-top: 8vmin;
+	padding-bottom: 12vmin;
+
+	@media (min-width: 768px) {
+		padding-bottom: 20vmin;
+	}
+
+	&__container {
+
+		height: 100%;
+		display: flex;
+		justify-content: start;
+	}
+}

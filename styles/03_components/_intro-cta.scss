@@ -1,0 +1,105 @@
+.intro-cta {
+	
+	font-size: 2.6vmin;
+	font-weight: var(--font-weight-bold);
+	color: var(--white-default);
+	text-transform: uppercase;
+	margin: 0 auto;
+
+	// @media (min-width: 374px) {	
+	// 	font-size: 11px;
+	// }
+
+	@media (max-width: 480px) {
+		display: flex;
+		flex-direction: column;
+	}
+
+	@media (min-width: 480px) {
+		margin: 0;
+		font-size: 2.2vmin;
+	}
+
+	// @media (min-width: 768px) {
+	// 	font-size: 14px;
+	// }
+
+	// @media (min-width: 990px) {
+	// 	font-size: 16px;
+	// }
+
+	@media (min-width: 1200px) {
+		font-size: 2vmin;
+	}
+
+	// @media (min-width: 1440px) {
+	// 	font-size: 19px;
+	// }
+
+	// @media (min-width: 1820px) {
+	// 	font-size: 20px;
+	// }
+
+	span {
+		display: block;
+	}
+
+	&__header {
+		margin-bottom: 3em;
+	}
+
+	&__main {
+		display: flex;
+		align-items: flex-end;
+		margin-bottom: 3em;
+	}
+
+	&__realTime {
+		display: block;
+		font-size: 5.1em;
+		line-height: 1;
+		color: var(--yellow-900);
+	}
+
+	&__warning {
+		margin-top: -0.14em;
+		font-size: 4.95em;
+		text-indent: 0.05em;
+		line-height: 1;
+	}
+
+	&__upToBonus {
+		font-size: 3.3em;
+		line-height: 0.9;
+		text-align: right;
+	}
+
+	&__percentText {
+		position: relative;
+		z-index: 1;
+		margin-left: 0.1em;
+		font-size: 10em;
+		line-height: 0.68;
+		color: var(--yellow-900);
+	}
+
+	&__percent {
+		position: absolute;
+		top: -0.18em;
+		right: -0.72em;
+		font-size: 0.29em;
+		color: var(--white-default);
+	}
+
+	&__button {
+		font-size: 2.2em;
+		border-radius: 0.4em;
+		box-shadow: 0px 3.5px 50px -15px rgba(255, 229, 0, 0.26);
+	}
+
+	&__footer {
+		@media (max-width: 480px) {
+			margin-top: auto;
+		}
+	}
+}
