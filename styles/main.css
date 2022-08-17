@@ -369,7 +369,6 @@ template {
 html {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  height: -webkit-fill-available;
 }
 
 *::before, *::after {
