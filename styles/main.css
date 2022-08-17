@@ -369,6 +369,7 @@ template {
 html {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  height: -webkit-fill-available;
 }
 
 *::before, *::after {
@@ -475,6 +476,7 @@ img {
   /* FF 66+ */
   width: 100%;
   min-height: 100vh;
+  min-height: -webkit-fill-available;
   background-color: #0e1120;
   background-image: url(../images/main-background-image.jpg);
   background-repeat: no-repeat;
