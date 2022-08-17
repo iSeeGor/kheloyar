@@ -6,10 +6,6 @@
 	text-transform: uppercase;
 	margin: 0 auto;
 
-	// @media (min-width: 374px) {	
-	// 	font-size: 11px;
-	// }
-
 	@media (max-width: 480px) {
 		display: flex;
 		flex-direction: column;
@@ -20,25 +16,9 @@
 		font-size: 2.2vmin;
 	}
 
-	// @media (min-width: 768px) {
-	// 	font-size: 14px;
-	// }
-
-	// @media (min-width: 990px) {
-	// 	font-size: 16px;
-	// }
-
 	@media (min-width: 1200px) {
 		font-size: 2vmin;
 	}
-
-	// @media (min-width: 1440px) {
-	// 	font-size: 19px;
-	// }
-
-	// @media (min-width: 1820px) {
-	// 	font-size: 20px;
-	// }
 
 	span {
 		display: block;
